@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>KPB - PERTAMINA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="{{base_url}}assets/gocargo-recharge/img/favicon.ico">
+
+  <!-- LOAD CSS FILES -->
+  <link href="{{base_url}}assets/gocargo-recharge/css/main.css" rel="stylesheet" type="text/css">
+  <link href="{{base_url}}assets/gocargo-recharge/css/custom-onepage.css" rel="stylesheet" type="text/css">
+</head>
+
+  <body>
+    <input type="hidden" id="baseURL" value="{{base_url}}"/>
+    <!-- <div id="preloader"></div> -->
+    <div id="wrapper">
+
+    {% include "users/header.html" %}
+
+    <div id="content" class="no-padding">
+      {% block content %} {% endblock %}
+    </div>
+
+    {% include "users/footer.html" %}
+    </div>
+
+    <!-- LOAD JS FILES -->
+    <script src="{{base_url}}assets/gocargo-recharge/js/jquery.min.js"></script>
+    <script src="{{base_url}}assets/gocargo-recharge/js/bootstrap.min.js"></script>
+    <script src="{{base_url}}assets/gocargo-recharge/js/jquery.isotope.min.js"></script>
+    <script src="{{base_url}}assets/gocargo-recharge/js/easing.js"></script>
+    <script src="{{base_url}}assets/gocargo-recharge/js/jquery.ui.totop.js"></script>
+    <script src="{{base_url}}assets/gocargo-recharge/js/ender.js"></script>
+    <script src="{{base_url}}assets/gocargo-recharge/js/owl.carousel.js"></script>
+    <script src="{{base_url}}assets/gocargo-recharge/js/jquery.fitvids.js"></script>
+    <script src="{{base_url}}assets/gocargo-recharge/js/jquery.plugin.js"></script>
+    <script src="{{base_url}}assets/gocargo-recharge/js/wow.min.js"></script>
+    <script src="{{base_url}}assets/gocargo-recharge/js/jquery.magnific-popup.min.js"></script>
+    <script src="{{base_url}}assets/gocargo-recharge/js/tweecool.js"></script>
+    <script src="{{base_url}}assets/gocargo-recharge/js/jquery.stellar.js"></script>
+    <script src="{{base_url}}assets/gocargo-recharge/js/typed.js"></script>
+    <script src="{{base_url}}assets/gocargo-recharge/js/jquery.scrollto.js"></script>
+
+    <!-- theme custom and plugin settings -->
+    <script src="{{base_url}}assets/gocargo-recharge/js/custom.js"></script>
+    <script src="{{base_url}}assets/gocargo-recharge/js/custom-tweecool.js"></script>
+
+    <!-- SLIDER REVOLUTION SCRIPTS  -->
+    <script type="text/javascript" src="{{base_url}}assets/gocargo-recharge/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="{{base_url}}assets/gocargo-recharge/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="{{base_url}}assets/gocargo-recharge/js/revslider-custom.js"></script>
+    {% if js %}
+      <script src = "{{base_url}}{{js}}"></script>
+    {% endif %}
+    {% block js %} {% endblock %}
+</body>
+</html>
