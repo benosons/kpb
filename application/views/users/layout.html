@@ -15,7 +15,11 @@
   <link href="{{base_url}}assets/gocargo-recharge/css/main.css" rel="stylesheet" type="text/css">
   <link href="{{base_url}}assets/gocargo-recharge/css/custom-onepage.css" rel="stylesheet" type="text/css">
 </head>
-
+<style>
+  .tujuan {
+      height: 90px;
+  }
+</style>
   <body>
     <input type="hidden" id="baseURL" value="{{base_url}}"/>
     <!-- <div id="preloader"></div> -->
@@ -58,6 +62,20 @@
     {% if js %}
       <script src = "{{base_url}}{{js}}"></script>
     {% endif %}
+    <script type="text/javascript">
+      $( document ).ready(function() {
+          $('#mainmenu li').on('click', function(e){
+            let el = $('#mainmenu li');
+            $('#mainmenu li a').removeAttr('class');
+            for (var i = 0; i < el.length; i++) {
+              if($("a", this).text() == $('a', el[i]).text()){
+                $("a", el[i]).addClass('active');
+                $("a", this).addClass('active');
+              }
+            }
+          });
+      });
+    </script>
     {% block js %} {% endblock %}
 </body>
 </html>

@@ -1,6 +1,6 @@
 {% extends "users/layout.html" %} {% block content %}
             <!-- slider -->
-            <div id="slider" data-bgcolor="#070a10">
+            <div hidden id="slider" data-bgcolor="#070a10">
                 <!-- revolution slider begin -->
                 <div class="fullwidthbanner-container">
                     <div id="revolution-slider">
@@ -78,24 +78,91 @@
             </div>
             <!-- slider close -->
 
-
             <!-- section begin -->
-            <section id="section-about-us" class="side-bg no-bg light-text" data-bgcolor="#091020">
-                <div class="col-md-6 col-md-offset-6 pull-right image-container">
-                    <div class="background-image" data-bgcolor="#070a10"></div>
+            <section id="section-video" class="no-padding autoheight light-text" data-stellar-background-ratio="0.5">
+                <div class="center-y absolute w100p h100p">
+                    <div class="inner">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 text-center">
+                                    <img src="{{base_url}}assets/gocargo-recharge/img/misc/pertamina.png" alt="" />
+									                           <div class="divider-double"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
+				<div class="bg-overlay overlaydark80"></div>
+
+			<!-- HTML5 Video Code -->
+
+			<video autoplay="autoplay" loop="loop" autobuffer="autobuffer" muted="muted" poster="{{base_url}}assets/gocargo-recharge/img/poster.jpg" width="426" height="240">
+				<source src="{{base_url}}assets/gocargo-recharge/video/profile.mp4" type="video/mp4" />
+				<source src="{{base_url}}assets/gocargo-recharge/video/profile.webm" type="video/webm" />
+			</video>
+
+            </section>
+            <!-- section close -->
+
+            <!-- section begin -->
+            <section id="section-profile" class="side-bg no-bg light-text" data-bgcolor="#00385f">
+                <div class="col-md-6 col-md-offset-6 pull-right image-container">
+                    <div class="background-image" data-bgcolor="#091020"></div>
+                </div>
+                <div class="col-md-12 text-center">
+                    <h2>PROFIL PROYEK RDMP BALIKPAPAN & LAWE-LAWE</h2>
+                    <div class="divider-deco"><span style="height: 3px;width: 100px;"></span></div>
+                </div>
                 <div class="container">
                     <div class="row">
                         <div class="col-md-5">
                             <div class="inner-padding">
-                                <h2>THE MOST PROGRESSIVE COMPANY</h2>
-                                <p class="lead">Visibility is the key to a successful supply chain elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate </p>
+                                <p class="lead">Pengembangan Kilang RU V Balikpapan <br>(Refinery Development Master Plan)</br></p>
                                 <div class="divider-deco"><span></span></div>
+                                <div class="row" style="background-size: cover;">
+                                  <div class="col-md-12 wow fadeInUp" data-wow-delay="0" style="visibility: visible; animation-name: fadeInUp;">
+                                        <div class="box-with-icon-left">
+                                          <i class="fa fa-database icon-big"></i>
+                                          <div class="text">
+                                            <h5><span class="id-color">PENINGKATAN KAPASITAS PENGOLAHAN</span></h5>
+                                            <p>Dari 260 kbpd menjadi 360 kbpd. </p>
+                                            <div class="divider-single"></div>
+                                          </div>
+                                        </div>
+                                  </div>
 
-                                <p>gocargo-recharge has more than 25 years experience in the logistics industry with a specialized focus on south asia. With its unique regional network covering the entire area gocargo-recharge has become a major player in the Freight and Forwarding Industry ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+                                  <div class="col-md-12 wow fadeInUp" data-wow-delay="0" style="visibility: visible; animation-name: fadeInUp;">
+                                        <div class="box-with-icon-left">
+                                          <i class=" icon-big"><img src="{{base_url}}assets/gocargo-recharge/img/gas-pump-solid.png" style="width: 80%;"></img></i>
+                                          <div class="text">
+                                            <h5><span class="id-color">PENINGKATAN PRODUKSI DAN KUALITAS BBM</span></h5>
+                                              <ul class="icon-list arrow">
+                                                <li>Peningkatan Gasoline dari 42 kbpd menjadi 142 kbpd.</li>
+                                                <li>Peningkatan Diesel dari 125 kbpd menjadi 160 kbpd.</li>
+                                                <li>Peningkatan Avtur dari 30 kbpd menjadi 41 kbpd.</li>
+                                                <li>Peningkatan LPG dari 0.8 kbpd menjadi 17 kbpd.</li>
+                                                <li>Menghasilkan BBM yang lebih Ramah Lingkungan yaitu <b>EURO V.</b></li>
+                                              </ul>
+                                            <div class="divider-single"></div>
+                                          </div>
+                                        </div>
+                                  </div>
 
-                                <p>Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+                                  <div class="col-md-12 wow fadeInUp" data-wow-delay="0" style="visibility: visible; animation-name: fadeInUp;">
+                                        <div class="box-with-icon-left">
+                                          <i class=" icon-big"><img src="{{base_url}}assets/gocargo-recharge/img/invoice-dollar-solid.png" style="width: 80%;"></img></i>
+                                          <div class="text">
+                                            <h5><span class="id-color">NILAI INVESTASI</span></h5>
+                                            <p>Estimasi nilai investasi mencapai 6.506 Miliar USD. </p>
+                                            <div class="divider-single"></div>
+                                          </div>
+                                        </div>
+                                  </div>
+
+                                  <div class="clearfix"></div>
+                                </div>
+
                             </div>
 
                         </div>
@@ -103,28 +170,45 @@
                         <div class="col-md-5 col-md-offset-2">
                             <div class="inner-padding">
 
-                                <h3 class="mt0">BOARD OF DIRECTOR</h3>
-                                <div class="tiny-border"></div>
+                                <p class="lead">TUJUAN PEMBANGUNAN RDMP BALIKPAPAN & LAWE-LAWE</p>
+                                <div class="divider-deco"><span></span></div>
 
-                                <div class="carousel-1 text-white">
-                                    <div class="item">
-                                        <div class="text">"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis"</div>
-                                        <div class="name id-color">Harold Kumar, CEO</div>
-                                        <img src="{{base_url}}assets/gocargo-recharge/img/onepage/bod-1.jpg" alt="">
-                                    </div>
-
-                                    <div class="item">
-                                        <div class="text">"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis"</div>
-                                        <div class="name id-color">Vin Diesel, CEO</div>
-                                        <img src="{{base_url}}assets/gocargo-recharge/img/onepage/bod-2.jpg" alt="">
-                                    </div>
-
-                                    <div class="item">
-                                        <div class="text">"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis"</div>
-                                        <div class="name id-color">Selena Gomez, CEO</div>
-                                        <img src="{{base_url}}assets/gocargo-recharge/img/onepage/bod-3.jpg" alt="">
-                                    </div>
-                                </div>
+                                  <div class="widget latest_news">
+                                      <ul class="bloglist-small">
+                                          <li class="tujuan">
+                                              <div class="date-box">
+                                                  <span class="day">1</span>
+                                              </div>
+                                              <div class="txt">
+                                                  <h4><span class="id-color">Meningkatkan kualitas produk untuk memenuhi standar EURO V.</span></h4>
+                                              </div>
+                                          </li>
+                                          <li class="tujuan">
+                                              <div class="date-box">
+                                                  <span class="day">2</span>
+                                              </div>
+                                              <div class="txt">
+                                                  <h4><span class="id-color">Meningkatkan kuantitas produk.</span></h4>
+                                              </div>
+                                          </li>
+                                          <li class="tujuan">
+                                              <div class="date-box">
+                                                  <span class="day">3</span>
+                                              </div>
+                                              <div class="txt">
+                                                  <h4><span class="id-color">Meningkatkan kompleksitas kilang dengan menambah unit konversi untuk menghasilkan lebih banyak higher value products.</span></h4>
+                                              </div>
+                                          </li>
+                                          <li class="tujuan">
+                                              <div class="date-box">
+                                                  <span class="day">4</span>
+                                              </div>
+                                              <div class="txt">
+                                                  <h4><span class="id-color">Meningkatkan fleksibilitas pengolahan crude agar mampu mengolah crude yang lebih sour.</span></h4>
+                                              </div>
+                                          </li>
+                                      </ul>
+                                  </div>
 
                             </div>
                         </div>
@@ -556,54 +640,35 @@
                     <div class="row">
                         <div class="gallery-carousel nav-s1 wow fadeInUp">
                             <div class="gallery-item">
-                                <a class="preview" href="{{base_url}}assets/gocargo-recharge/img/gallery-2/fleet_1.jpg" title="Gallery #1"><span class="overlay">Gallery #1
+                                <a class="preview" href="{{base_url}}assets/gocargo-recharge/img/gallery/DJI_0257.JPG" title="Gallery #1"><span class="overlay">Gallery #1
                                 </span>
                                 </a>
-                                <img src="{{base_url}}assets/gocargo-recharge/img/gallery-2/fleet_1.jpg" alt="">
+                                <img src="{{base_url}}assets/gocargo-recharge/img/gallery/DJI_0257.JPG" alt="">
                             </div>
                             <div class="gallery-item">
-                                <a class="preview" href="{{base_url}}assets/gocargo-recharge/img/gallery-2/fleet_2.jpg" title="Gallery #2"><span class="overlay">Gallery #2
+                                <a class="preview" href="{{base_url}}assets/gocargo-recharge/img/gallery/DJI_0263.JPG" title="Gallery #2"><span class="overlay">Gallery #2
                                 </span>
                                 </a>
-                                <img src="{{base_url}}assets/gocargo-recharge/img/gallery-2/fleet_2.jpg" alt="">
+                                <img src="{{base_url}}assets/gocargo-recharge/img/gallery/DJI_0263.JPG" alt="">
                             </div>
                             <div class="gallery-item">
-                                <a class="preview" href="{{base_url}}assets/gocargo-recharge/img/gallery-2/fleet_3.jpg" title="Gallery #3"><span class="overlay">Gallery #3
+                                <a class="preview" href="{{base_url}}assets/gocargo-recharge/img/gallery/DJI_0308.JPG" title="Gallery #3"><span class="overlay">Gallery #3
                                 </span>
                                 </a>
-                                <img src="{{base_url}}assets/gocargo-recharge/img/gallery-2/fleet_3.jpg" alt="">
+                                <img src="{{base_url}}assets/gocargo-recharge/img/gallery/DJI_0308.JPG" alt="">
                             </div>
                             <div class="gallery-item">
-                                <a class="preview" href="{{base_url}}assets/gocargo-recharge/img/gallery-2/fleet_4.jpg" title="Gallery #4"><span class="overlay">Gallery #4
+                                <a class="preview" href="{{base_url}}assets/gocargo-recharge/img/gallery/DJI_0313.JPG" title="Gallery #4"><span class="overlay">Gallery #4
                                 </span>
                                 </a>
-                                <img src="{{base_url}}assets/gocargo-recharge/img/gallery-2/fleet_4.jpg" alt="">
+                                <img src="{{base_url}}assets/gocargo-recharge/img/gallery/DJI_0313.JPG" alt="">
                             </div>
                             <div class="gallery-item">
-                                <a class="preview" href="{{base_url}}assets/gocargo-recharge/img/gallery-2/fleet_5.jpg" title="Gallery #5"><span class="overlay">Gallery #5
+                                <a class="preview" href="{{base_url}}assets/gocargo-recharge/img/gallery/DJI_0317.JPG" title="Gallery #5"><span class="overlay">Gallery #5
                                 </span>
                                 </a>
-                                <img src="{{base_url}}assets/gocargo-recharge/img/gallery-2/fleet_5.jpg" alt="">
+                                <img src="{{base_url}}assets/gocargo-recharge/img/gallery/DJI_0317.JPG" alt="">
                             </div>
-                            <div class="gallery-item">
-                                <a class="preview" href="{{base_url}}assets/gocargo-recharge/img/gallery-2/fleet_6.jpg" title="Gallery #6"><span class="overlay">Gallery #6
-                                </span>
-                                </a>
-                                <img src="{{base_url}}assets/gocargo-recharge/img/gallery-2/fleet_6.jpg" alt="">
-                            </div>
-                            <div class="gallery-item">
-                                <a class="preview" href="{{base_url}}assets/gocargo-recharge/img/gallery-2/fleet_7.jpg" title="Gallery #7"><span class="overlay">Gallery #7
-                                </span>
-                                </a>
-                                <img src="{{base_url}}assets/gocargo-recharge/img/gallery-2/fleet_7.jpg" alt="">
-                            </div>
-                            <div class="gallery-item">
-                                <a class="preview" href="{{base_url}}assets/gocargo-recharge/img/gallery-2/fleet_8.jpg" title="Gallery #8"><span class="overlay">Gallery #8
-                                </span>
-                                </a>
-                                <img src="{{base_url}}assets/gocargo-recharge/img/gallery-2/fleet_8.jpg" alt="">
-                            </div>
-
                         </div>
                     </div>
                 </div>
