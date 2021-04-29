@@ -16,7 +16,7 @@ elements
 	address
 	blockquote
 	breadcrumb
-	call to action 
+	call to action
 	featured box
 	form
 	heading
@@ -31,11 +31,11 @@ elements
 css attributes
 plugin
 misc
-	
+
 */
 
 
-/*------------------------------ 
+/*------------------------------
 BODY
 ------------------------------ */
 
@@ -53,7 +53,7 @@ body {
 	overflow: hidden;
 }
 
-/*------------------------------ 
+/*------------------------------
 HEADER
 ------------------------------ */
 
@@ -141,7 +141,7 @@ header .search input[type=text]:focus {
 	background: #111;
 }
 
-/*------------------------------ 
+/*------------------------------
 SUBHEADER
 ------------------------------ */
 
@@ -184,7 +184,7 @@ SUBHEADER
 	background: rgba(0, 0, 0, .2);
 }
 
-/*------------------------------ 
+/*------------------------------
 MAINMENU
 ------------------------------ */
 
@@ -239,7 +239,7 @@ MAINMENU
 	display: block;
 	padding: 10px 16px 8px 16px;
 	text-decoration: none;
-	color: #fff;
+	color: #006bb8;
 }
 header.clone #mainmenu a {
 	color: #555;
@@ -350,7 +350,7 @@ header.clone #mainmenu a {
 	padding: 5px;
 }
 
-/*------------------------------ 
+/*------------------------------
 /* FOOTER
 /*------------------------------ */
 
@@ -402,7 +402,7 @@ footer .social a {
 	color: #fff;
 }
 
-/*------------------------------ 
+/*------------------------------
 /* BLOG
 /*------------------------------ */
 
@@ -493,7 +493,7 @@ footer .social a {
 	margin-bottom: -35px;
 }
 
-/*------------------------------ 
+/*------------------------------
 	/* blog single */
 
 
@@ -739,7 +739,7 @@ footer .social a {
 	color: #222;
 }
 
-/*------------------------------ 
+/*------------------------------
 ELEMENTS
 ------------------------------ */
 
@@ -1720,7 +1720,7 @@ footer .divider-line {
 	opacity:.8;
 }
 
-.exo_tab.tab_map .exo_nav .nav-item > div.active , 
+.exo_tab.tab_map .exo_nav .nav-item > div.active ,
 .exo_tab.tab_map .exo_nav .nav-item > div:hover {
 	opacity:1;
 	border-bottom:solid 3px #ffffff;
@@ -2158,7 +2158,7 @@ footer .widget {
 	border: solid 1px #ddd;
 }
 
-/*------------------------------ 
+/*------------------------------
 css attributes
 ------------------------------ */
 
@@ -2445,7 +2445,7 @@ i.icon-light {
 	color: #fff;
 }
 
-/*------------------------------ 
+/*------------------------------
 PLUGIN
 ------------------------------ */
 
@@ -2706,7 +2706,7 @@ PLUGIN
 	/* ------------------------------ */
 .isotope, .isotope .isotope-item {
 	/* change duration value to whatever you like */
-	
+
 	-webkit-transition-duration: 0.8s;
 	-moz-transition-duration: 0.8s;
 	-ms-transition-duration: 0.8s;
@@ -2865,25 +2865,25 @@ strong {
 	position: absolute;
 	overflow: hidden;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
-	
+
 	background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
 	/* FF3.6+ */
-	
+
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.65)), color-stop(100%, rgba(0, 0, 0, 0)));
 	/* Chrome,Safari4+ */
-	
+
 	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
 	/* Chrome10+,Safari5.1+ */
-	
+
 	background: -o-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
 	/* Opera 11.10+ */
-	
+
 	background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
 	/* IE10+ */
-	
+
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
 	/* W3C */
-	
+
 	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000', GradientType=0);
 	/* IE6-9 */
 }
@@ -2925,7 +2925,7 @@ strong {
 	color: #222;
 }
 
-/*------------------------------ 
+/*------------------------------
 /* link
 /*------------------------------ */
 a {
@@ -2941,7 +2941,7 @@ footer a:hover {
 	color: #fff;
 }
 
-/*------------------------------ 
+/*------------------------------
 /* logo
 /*------------------------------ */
 #logo {
@@ -2953,7 +2953,7 @@ footer a:hover {
 	height: 80px;
 }
 
-/*------------------------------ 
+/*------------------------------
 /* content
 /*------------------------------ */
 #content {
@@ -3228,7 +3228,7 @@ footer a:hover {
 	padding-bottom: 0 !important;
 }
 
-/*------------------------------ 
+/*------------------------------
 section and parallax background settings
 ------------------------------ */
 section {
@@ -3438,7 +3438,7 @@ section {
 	font-style: italic;
 }
 
-/*------------------------------ 
+/*------------------------------
 jquery toTop
 ------------------------------ */
 #toTop {
@@ -3467,7 +3467,7 @@ jquery toTop
 	outline: none;
 }
 
-/*------------------------------ 
+/*------------------------------
 map
 ------------------------------ */
 .map {
@@ -3602,7 +3602,7 @@ map
 }
 .list-thumbnail li:nth-child(even) {}
 
-/*------------------------------ 
+/*------------------------------
 /* contact */
 
 /*------------------------------ */
@@ -3720,7 +3720,7 @@ map
 	color: #fff!important;
 	margin-bottom: 15px;
 	/*background:rgba(255,255,255,.5);*/
-	
+
 	border-radius: 0!important;
 	-moz-border-radius: 0!important;
 	-webkit-border-radius: 0!important;
@@ -3752,7 +3752,7 @@ map
 	color: #333!important;
 	margin-bottom: 15px;
 	/*background:rgba(255,255,255,.5);*/
-	
+
 	border-radius: 0!important;
 	-moz-border-radius: 0!important;
 	-webkit-border-radius: 0!important;
@@ -3791,7 +3791,7 @@ map
 	color:#222;
 }
 
-/* ------------------------------ 
+/* ------------------------------
 gallery
 /* ------------------------------ */
 .blog-carousel {
@@ -3898,7 +3898,7 @@ gallery
 	background: #333;
 }
 
-/*------------------------------ 
+/*------------------------------
 /* FEATURED BOX
 /*------------------------------ */
 .dark .feature {
@@ -3952,7 +3952,7 @@ gallery
 	background: url(http://www.exotheme.com/gocargo-recharge/img/bg-big-1.jpg) top center;
 }
 
-/*------------------------------ 
+/*------------------------------
 control nav
 ------------------------------ */
 .hover {
@@ -4335,7 +4335,7 @@ a, a:hover, .feature-box, .custom-col-3 i, .custom-col-3 i:hover, .custom-carous
 	margin: 5px 7px;
 	filter: Alpha(Opacity=50);
 	/*IE7 fix*/
-	
+
 	opacity: 0.5;
 	-webkit-border-radius: 0 !important;
 	-moz-border-radius: 0!important;
@@ -4353,7 +4353,7 @@ a, a:hover, .feature-box, .custom-col-3 i, .custom-col-3 i:hover, .custom-carous
 	margin:3px;
 	filter: Alpha(Opacity=50);
 	/*IE7 fix*/
-	
+
 	opacity: 1;
 	-webkit-border-radius: 0 !important;
 	-moz-border-radius: 0!important;
