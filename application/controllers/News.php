@@ -47,7 +47,13 @@ class News extends CI_Controller {
 	{
 			$this->content['page'] = 'news';
 			$this->content['js'] = '/assets/js/action/news/news.js';
-			$this->twig->display('users/news/news.html', $this->content);
+			if($this->uri->segment(2) == '1'){
+				$this->twig->display('users/news/news_1.html', $this->content);
+			}else if($this->uri->segment(2) == '2'){
+				$this->twig->display('users/news/news_2.html', $this->content);
+			}else if($this->uri->segment(2) == '3'){
+				$this->twig->display('users/news/news_3.html', $this->content);
+			}
 
 	}
 
