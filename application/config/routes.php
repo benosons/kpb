@@ -61,3 +61,4 @@ $route['^(ssd|ssdi|ssdr|ssdt|dokumen|rka)(/:any)?$'] = "indikator/$0";
 $route['^(dashboard)(/:any)?$'] = "sys/$0";
 $route['^(submitkegiatan|loadkegiatan|actionkegiatan|loadindikator|saveindikator|loadso|submitso|actionindikator|getDash|actionkalibrasi)(/:any)?$'] = "json/$0";
 $route['^(so|inputso|kalibrasi)(/:any)?$'] = "view/$0";
+$route['^(news)(/:any)?$'] = "news/$1";
