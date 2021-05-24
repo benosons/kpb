@@ -34,7 +34,7 @@ $( document ).ready(function() {
        // Get the id of the current element
        cur = cur[cur.length-1];
        var id = cur && cur.length ? cur[0].id : "asoy";
-       
+
        if (lastId !== id) {
            lastId = id;
            // Set/remove active class
@@ -62,6 +62,10 @@ $( document ).ready(function() {
 
            if(id == 'section-contact-us'){
              $("[href='#section-contact-us']").addClass("active");
+           }
+
+           if(id == 'section-virtual-tour'){
+             $("[href='#section-virtual-tour']").addClass("active");
            }
 
            // menuItems
