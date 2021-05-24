@@ -68,6 +68,10 @@ $( document ).ready(function() {
              $("[href='#section-virtual-tour']").addClass("active");
            }
 
+           if(id == 'section-foto-timeline'){
+             $("[href='#section-foto-timeline']").addClass("active");
+           }
+
            // menuItems
            //   .parent().removeClass("active")
            //   .end().filter("[href='#"+id+"']").parent().addClass("active");
