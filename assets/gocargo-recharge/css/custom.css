@@ -116,7 +116,7 @@ padding:60px 0 60px 0 !important;
 #section-bod{
 position:initial;
 width:100%;
-background:url('../img/bg/bg-3.jpg'); background-size:cover;
+/* background:url('../img/bg/bg-3.jpg'); background-size:cover; */
 }
 
 #section-tracking-result{background:#222;}

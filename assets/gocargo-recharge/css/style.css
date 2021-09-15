@@ -355,16 +355,16 @@ header.clone #mainmenu a {
 /*------------------------------ */
 
 footer {
-	background:#171717;
-	color: #ccc;
+	background:#fff;
+	color: #171717;
 	padding: 40px 0 40px 0;
 }
 footer.s1 {
-	background: #070a10;
+	background: #fff;
 	padding-bottom: 60px;
 }
 footer a {
-	color: #ccc;
+	color: #171717;
 }
 footer ul {
 	margin: 0;
