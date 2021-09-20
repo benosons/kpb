@@ -252,6 +252,7 @@ header.clone #mainmenu a {
 }
 #mainmenu li:hover li a {
 	color: #fff;
+	background-color:#006cb8;
 }
 #mainmenu li li, #mainmenu li li:last-child {
 	font-size: 13px;
@@ -270,8 +271,8 @@ header.clone #mainmenu a {
 	border-top: none;
 }
 #mainmenu li li a:hover {
-	color: #222;
-	background: #D03232;
+	color: #fff;
+	background: #fff;
 }
 #mainmenu li ul {
 	width: 170px;
